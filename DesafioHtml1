@@ -1,0 +1,52 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Desafio 1 Html</title>
+</head>
+
+<body>
+  <h1 id="inicio"> Funções do HTML 5 </h1>
+  <hr />
+  
+  <h2>Índice <sup> *</sup> </h2>
+  <ul>
+    <li> <a href="#elemento-p">Elemento < p >;</a> </li>
+    <li> <a href="#elementos-h">Elementos < h1 > à < h6 >;</a> </li>
+    <li> <a href="#elemento-a">Elemento < a >;</a> </li>
+    <li> <a href="#biografia">Biografia.</a> </li>
+  </ul>
+  <hr />
+  <h2 id="elemento-p"> <u>Elemento < p ></u> </h2>
+  <small> <a href="#inicio"><strong><i>Início</i></strong></a></small>
+  <p><mark>O elemento <abbr title="Linguagem de marcação hipertexto">HTML</abbr> < p > representa um parágrafo</mark>. Como vemos em sites, temos títulos, subtítulos, parágrafos, etc. Os parágrafos em HTML são representados pelos sinais < p > e o fechamento < / p >. Eles são usados para agrupar conteúdos diversos, podendo agrupar imagens e campos de um formulario. </p>
+  <hr />
+  <h2 id="elementos-h"> <u>Elementos < h1 > à < h6 ></u> </h2>
+    <small> <a href="#inicio"><strong><i>Início</i></strong></a></small>
+    <p> Os elementos de cabeçalhos possuem seis níveis, <mark>com < h1 > sendo o título, seguindo com < h2 > como subtítulo e assim por diante, até chegar no < h6 > </mark>. Um elemento de cabeçalho descreve brevemente o tópico da seção em que ele está.</p>
+  <hr />
+  <h2 id="elemento-a"> <u>Elemento < a ></u> </h2>
+  <small> <a href="#inicio"><strong><i>Início</i></strong></a></small>
+  <p> O elemento < a > em HTML (ou elemento âncora),<mark> com o elemento href (< a href="url" >Descrição do link < / a >) faz uma conexão da sua página com páginas na web, sendo ela uma página secundaria do próprio site ou diferentes páginas na web</mark>.</p>
+    
+    <hr />
+    <h3 id="biografia"> Biografia: </h3>
+    <ol>
+      <li><a href="https://www.youtube.com/watch?v=kFitfXelH0Q" target="_blank">Tag P e mais regras e detalhes importantes HTML - Curso de HTML Completo e Profissional #02
+</a> </li>
+      <li><a href="https://www.youtube.com/watch?v=Xw_dEW7R3SM" target="_blank"> Tags H, h1 até h6 - Curso de HTML Completo e Profissional #03
+</a> </li>
+      <li><a href="https://www.youtube.com/watch?v=9ByTCcGSIcw" target="_blank">Tag a - Âncora - Curso de HTML Completo e Profissional #04
+</a> </li>
+    </ol>
+  <h6><font size="3">Uma pequena citação:</font></h6>
+  <blockquote>Não é a <del>linguagem de programação</del> que define o programador, mas sim sua lógica.</blockquote>
+    <sub>Desafio HTML DIO.</sub>
+    <h4>Thiago B.</h4>
+    <h5>Bootcamp HTML.</h5>
+    
+</body>
+  
+</html>
